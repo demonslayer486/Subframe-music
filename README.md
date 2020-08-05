@@ -13,22 +13,28 @@
 
 ## Getting started
 ```javascript
+git clone https://github.com/yonle/nei-music
+cd nei-music
 npm i
 ```
 
 
 ## Configuration
 
-Go to .env File and fill out the values:
-
+Copy or Rename config.json.example to config.json and fill out the values:
+Note: Never commit or share your token or api keys publicly ⚠️
 ```json
-TOKEN=
-YOUTUBE_API_KEY=
-SOUNDCLOUD_CLIENT_ID=
-MAX_PLAYLIST_SIZE=10
-PREFIX=!
-PRUNING=false
+{
+  "TOKEN": "",
+  "YOUTUBE_API_KEY": "",
+  "SOUNDCLOUD_CLIENT_ID": "",
+  "MAX_PLAYLIST_SIZE": 10,
+  "PREFIX": "!",
+  "PRUNING": false
+}
 ```
+# 🌟New!
+You can also use `.env` as your configure for musicbots! For do this, Go to [This Reposity](https://github.com/nekunei/nei-music) for using `.env` configure !
 
 ## Features & Commands
 
@@ -54,7 +60,7 @@ PRUNING=false
 * Media Controls via Reactions
 ![reactions](https://cdn.glitch.com/1a3dfe50-5648-4538-9499-d5a39ac7b798%2FIMG_20200720_094549.JPG?v=1595213171592)
 
-## By @Lenime & @nekunei. 
+## By @Yonle & @nekunei. 
 Powered by <a href="https://glitch.com/@nekunei-team">@nekunei-team</a>
 
 Support Our <a href="https://discord.gg/FJwXgEF">Discord Server</a>
