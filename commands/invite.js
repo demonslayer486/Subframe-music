@@ -9,7 +9,7 @@ module.exports = {
     let helpEmbed = new MessageEmbed()
       .setAuthor("Invite nei-music", `https://cdn.glitch.com/1a3dfe50-5648-4538-9499-d5a39ac7b798%2FIMG_20200720_091304.JPG?v=1595211603132`)
       .setTitle("Invite me to your server")
-      .setDescription("[Click Here](https://nei-music.glitch.me)")
+      .setDescription("[Click Here](https://yonle.github.io/nei-music)")
       .setColor("#ffffff")
       .setThumbnail(`https://cdn.glitch.com/1a3dfe50-5648-4538-9499-d5a39ac7b798%2FIMG_20200720_091304.JPG?v=1595211603132`);
 
