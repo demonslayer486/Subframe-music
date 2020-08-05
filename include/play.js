@@ -6,7 +6,7 @@ const { canModifyQueue } = require("../util/neiUtill");
 module.exports = {
   async play(song, message) {
     require("dotenv").config();
-    const { PRUNING, SOUNDCLOUD_CLIENT_ID } = require("./config.json");
+    const { PRUNING, SOUNDCLOUD_CLIENT_ID } = require("../config.json");
     const queue = message.client.queue.get(message.guild.id);
 
     if (!song) {
