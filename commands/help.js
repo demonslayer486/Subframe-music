@@ -8,11 +8,11 @@ module.exports = {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
-      .setAuthor("nei-music Command", `https://cdn.glitch.com/1a3dfe50-5648-4538-9499-d5a39ac7b798%2FIMG_20200720_091304.JPG?v=1595211603132`)
+      .setAuthor("Subframe V2-music Command", ``)
       .setTitle("Command List")
       .setDescription("List of all commands")
       .setColor("#ffffff")
-      .setThumbnail(`https://cdn.glitch.com/1a3dfe50-5648-4538-9499-d5a39ac7b798%2FIMG_20200720_091304.JPG?v=1595211603132`);
+      .setThumbnail(``);
 
     commands.forEach((cmd) => {
       helpEmbed.addField(
