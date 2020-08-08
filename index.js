@@ -24,7 +24,7 @@ const { TOKEN, PREFIX } = require("./config.json");
 
 const client = new Client({ disableMentions: "everyone" });
 
-client.login(TOKEN);
+client.login(process.env.BOT_TOKEN);
 client.commands = new Collection();
 client.prefix = PREFIX;
 client.queue = new Map();
@@ -35,7 +35,7 @@ const cooldowns = new Collection();
  */
 client.on("ready", () => {
   console.log(`${client.user.username} ready!`);
-  client.user.setActivity(`${PREFIX}help`);
+  client.user.setActivity(``);
 });
 client.on("warn", (info) => console.log(info));
 client.on("error", console.error);
