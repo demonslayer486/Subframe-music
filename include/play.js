@@ -13,9 +13,9 @@ module.exports = {
       queue.channel.leave();
       message.client.queue.delete(message.guild.id);
       let ehm = new MessageEmbed()
-      .setAuthor("Queue Ended", `https://cdn.glitch.com/1a3dfe50-5648-4538-9499-d5a39ac7b798%2FIMG_20200720_091304.JPG?v=1595211603132`)
-      .setFooter("Thank you For Listening nei-music")
-      .setThumbnail(`https://cdn.glitch.com/1a3dfe50-5648-4538-9499-d5a39ac7b798%2FIMG_20200720_091304.JPG?v=1595211603132`)
+      .setAuthor("Queue Ended")
+      .setFooter("Thank you For Listening Subframe V2")
+      .setThumbnail(``)
       .setColor("#ffffff");
       return queue.textChannel.send(ehm).catch(console.error);
     }
